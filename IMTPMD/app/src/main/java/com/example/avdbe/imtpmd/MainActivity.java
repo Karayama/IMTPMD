@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
     public void init() {
 
 
-        final Button bHome = (Button) findViewById(R.id.bHome);
-        bHome.setOnClickListener(new View.OnClickListener() {
+        final Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
