@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".NavActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Jaar1" />
+        <activity android:name=".Jaar2" />
+        <activity android:name=".Jaar3" />
+        <activity android:name=".Jaar4" />
+        <activity android:name=".Overzicht"></activity>
     </application>
 
 </manifest>

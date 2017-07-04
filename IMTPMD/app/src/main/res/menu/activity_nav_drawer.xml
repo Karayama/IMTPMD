@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jaar1"
+            android:icon="@drawable/number1"
+            android:title="Jaar 1" />
+        <item
+            android:id="@+id/nav_jaar2"
+            android:icon="@drawable/number2"
+            android:title="Jaar 2" />
+        <item
+            android:id="@+id/nav_jaar3"
+            android:icon="@drawable/number3"
+            android:title="Jaar 3" />
+        <item
+            android:id="@+id/nav_jaar4"
+            android:icon="@drawable/number4"
+            android:title="Jaar 4" />
+        <item
+            android:id="@+id/nav_overzicht"
+            android:icon="@drawable/overzicht"
+            android:title="Overzicht" />
+    </group>
+</menu>
