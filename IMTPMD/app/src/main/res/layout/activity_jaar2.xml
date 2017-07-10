@@ -4,6 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.avdbe.imtpmd.Jaar2">
+    tools:context="com.example.avdbe.imtpmd.Jaar2"
+    android:background="#2eb2ff">
 
+    <Button
+        android:id="@+id/bKeuze"
+        android:layout_width="329dp"
+        android:layout_height="57dp"
+        android:text="Keuzevakken"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@android:color/background_light"
+        android:background="#40FFFFFF"
+        android:layout_marginBottom="169dp"
+        app:layout_constraintHorizontal_bias="0.512" />
+
+    <Button
+        android:id="@+id/BHoofd"
+        android:layout_width="329dp"
+        android:layout_height="57dp"
+        android:text="Hoofdvakken"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/bKeuze"
+        app:layout_constraintVertical_bias="0.858"
+        android:textColor="@android:color/background_light"
+        android:background="#40FFFFFF"
+        app:layout_constraintHorizontal_bias="0.512" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="194dp"
+        android:layout_height="69dp"
+        app:srcCompat="@drawable/jaar2graph"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/BHoofd"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -94,7 +94,7 @@ public class NavActivity extends AppCompatActivity
         }
         if(fragment != null){
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            ft.replace(R.id.nav_view, fragment);
+            ft.replace(R.id.content_nav, fragment);
             ft.commit();
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
